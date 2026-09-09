@@ -1,0 +1,38 @@
+ml-gas-analysis
+│── src
+│   ├── catboost_optuna
+│   │   ├── main.py
+│   │   ├── data_loader.py
+│   │   ├── feature_extraction.py
+│   │   ├── objective.py
+│   │   └── README.md
+│   │
+│   ├── dop_ml
+│   │   ├── main.py
+│   │   ├── data_loader.py
+│   │   ├── feature_extraction.py
+│   │   └── README.md
+│   │
+│   ├── linear_regression
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   ├── shewhart_charts
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   ├── shewhart_forecast
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   ├── shewhart_catboost
+│   │   ├── main.py
+│   │   └── README.md
+│
+│── data
+│   ├── train.csv
+│   └── data_train
+│
+│── requirements.txt
+│── .gitignore
+│── README.md

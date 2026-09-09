@@ -1,0 +1,31 @@
+__pycache__/
+catboost_info
+*.pyc
+*.pkl
+*.log
+.idea/
+.vscode/
+.venv/
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CatBoost logs
+catboost_info/
+
+# TSFresh cache
+tsfresh_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Data
+data/shewhart_charts/
+
+# Virtual environment
+.venv/
+
+venv.txt
