@@ -5,14 +5,15 @@
 ## 📦 Структура проекта
 
 ml-gas-analysis/
-│── data/
+│
+├── data/
 │   ├── train.csv                 # Целевая таблица
 │   └── data_train/               # Временные ряды газов
 │       ├── <id1>.csv
 │       ├── <id2>.csv
 │       └── ...
 │
-│── src/
+├── src/
 │   ├── catboost_optuna/          # Оптимизация CatBoost через Optuna
 │   │   ├── main.py
 │   │   ├── data_loader.py
@@ -42,10 +43,9 @@ ml-gas-analysis/
 │       ├── main.py
 │       └── README.md
 │
-│── .gitignore
-│── README.md                     # Главный README
-│── requirements.txt
-
+├── .gitignore
+├── README.md                     # Главный README
+└── requirements.txt
 
 ---
 
