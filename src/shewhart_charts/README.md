@@ -11,12 +11,14 @@
 
 ## Структура данных
 Ожидается структура:
+```
 data/
  ├── train.csv
  └── data_train/
       ├── <id1>.csv
       ├── <id2>.csv
       └── ...
+```
 
 ## Запуск
 python main.py

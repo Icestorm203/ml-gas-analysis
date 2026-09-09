@@ -5,47 +5,46 @@
 ## 📦 Структура проекта
 ```
 ml-gas-analysis/
-|
-|-- data/
-|   |-- train.csv                # Целевая таблица
-|   `-- data_train/              # Временные ряды газов
-|       |-- <id1>.csv
-|       |-- <id2>.csv
-|       `-- ...
-|
-|-- src/
-|   |-- catboost_optuna/         # Оптимизация CatBoost через Optuna
-|   |   |-- main.py
-|   |   |-- data_loader.py
-|   |   |-- feature_extraction.py
-|   |   |-- objective.py
-|   |   `-- README.md
-|   |
-|   |-- dop_ml/                  # Сравнение ML‑моделей
-|   |   |-- main.py
-|   |   |-- data_loader.py
-|   |   |-- feature_extraction.py
-|   |   `-- README.md
-|   |
-|   |-- linear_regression/       # Линейная + логистическая регрессия
-|   |   |-- main.py
-|   |   `-- README.md
-|   |
-|   |-- shewhart_catboost/       # Гибридная диагностика (Шухарт + CatBoost)
-|   |   |-- main.py
-|   |   `-- README.md
-|   |
-|   |-- shewhart_charts/         # Карты Шухарта
-|   |   |-- main.py
-|   |   `-- README.md
-|   |
-|   `-- shewhart_forecast/       # Прогноз выхода за UCL
-|       |-- main.py
-|       `-- README.md
-|
-|-- .gitignore
-|-- README.md                    # Главный README
-|-- requirements.txt
+│── data/
+│   ├── train.csv                 # Целевая таблица
+│   └── data_train/               # Временные ряды газов
+│       ├── <id1>.csv
+│       ├── <id2>.csv
+│       └── ...
+│
+│── src/
+│   ├── catboost_optuna/          # Оптимизация CatBoost через Optuna
+│   │   ├── main.py
+│   │   ├── data_loader.py
+│   │   ├── feature_extraction.py
+│   │   ├── objective.py
+│   │   └── README.md
+│   │
+│   ├── dop_ml/                   # Сравнение ML‑моделей
+│   │   ├── main.py
+│   │   ├── data_loader.py
+│   │   ├── feature_extraction.py
+│   │   └── README.md
+│   │
+│   ├── linear_regression/        # Линейная + логистическая регрессия
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   ├── shewhart_catboost/        # Гибридная диагностика (Шухарт + CatBoost)
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   ├── shewhart_charts/          # Карты Шухарта
+│   │   ├── main.py
+│   │   └── README.md
+│   │
+│   └── shewhart_forecast/        # Прогноз выхода за UCL
+│       ├── main.py
+│       └── README.md
+│
+│── .gitignore
+│── README.md                     # Главный README
+└── requirements.txt
 ```
 
 ---
