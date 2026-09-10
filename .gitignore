@@ -1,12 +1,5 @@
-__pycache__/
-catboost_info
-*.pyc
 *.pkl
 *.log
-.idea/
-.vscode/
-.venv/
-
 
 # Python cache
 __pycache__/
