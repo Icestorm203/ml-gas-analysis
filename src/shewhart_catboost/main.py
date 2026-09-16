@@ -1,13 +1,15 @@
 import numpy as np
 import pandas as pd
 import shap
+import os
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error
 from catboost import CatBoostRegressor
 from tsfresh.feature_extraction import extract_features, MinimalFCParameters
 
-PATH = 'C:\\Users\\MSI\\Documents\\Cursor\\PythonProjects\\ml-gas-analysis\\data\\'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PATH = os.path.join(BASE_DIR, 'data') + '\\'
 
 def load_data():
     y_data = pd.read_csv(PATH + 'train.csv', index_col='id')

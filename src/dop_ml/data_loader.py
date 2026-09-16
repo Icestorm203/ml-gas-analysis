@@ -1,6 +1,8 @@
 import pandas as pd
+import os
 
-PATH = 'C:\\Users\\MSI\\Documents\\Cursor\\PythonProjects\\ml-gas-analysis\\data\\'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PATH = os.path.join(BASE_DIR, 'data') + '\\'
 
 
 def load_data():

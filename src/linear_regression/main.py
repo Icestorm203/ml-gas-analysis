@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import os
 from matplotlib import pyplot as plt
 
 from sklearn.model_selection import train_test_split
@@ -9,7 +10,8 @@ from sklearn.metrics import mean_absolute_error, f1_score
 from catboost import CatBoostRegressor
 from tsfresh.feature_extraction import extract_features, MinimalFCParameters
 
-PATH = 'C:\\Users\\MSI\\Documents\\Cursor\\PythonProjects\\ml-gas-analysis\\data\\'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PATH = os.path.join(BASE_DIR, 'data') + '\\'
 
 
 def main():

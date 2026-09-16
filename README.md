@@ -112,33 +112,66 @@ ml-gas-analysis/
 ---
 
 ## 🚀 Запуск проекта
-Перейти в любую папку, например:
-cd src/shewhart_charts
-И запустить:
+
+1. Скачать проект
+```
+git clone https://github.com/<your-username>/ml-gas-analysis.git
+cd ml-gas-analysis
+```
+2. Установить Python
+Проект протестирован на:
+- Python 3.12
+Проверить версию:
+```
+python --version
+```
+3. Создать виртуальное окружение
+```
+python -m venv .venv
+```
+4. Активировать окружение (Windows (CMD))
+```
+.\.venv\Scripts\activate.bat
+```
+5. Установить зависимости
+```
+pip install -r requirements.txt
+```
+6. Запустить любой модуль
+Пример:
+```
+cd src/dop_ml
 python main.py
+```
+То же самое для остальных:
+
+- src/catboost_optuna/main.py
+
+- src/dop_ml/main.py
+
+- src/linear_regression/main.py
+
+- src/shewhart_catboost/main.py
+
+- src/shewhart_charts/main.py
+
+- src/shewhart_forecast/main.py
 
 ---
 
 ## 📁 Данные
 
 data/train.csv
-data/data_train/
-
-
----
-
-## 🔧 Установка зависимостей
-
-pip install -r requirements.txt
+data/data_train/<id>.csv
 
 ---
 
 ## 🧠 Технологии
 
-- Python 3.10  
-- TSFresh  
-- CatBoost  
-- Optuna  
-- Scikit-learn  
-- Matplotlib  
-- NumPy / Pandas  
+- Python 3.12
+- TSFresh
+- CatBoost
+- Optuna
+- Scikit-learn
+- Matplotlib
+- NumPy / Pandas

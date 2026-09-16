@@ -3,7 +3,9 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-PATH = 'C:\\Users\\MSI\\Documents\\Cursor\\PythonProjects\\ml-gas-analysis\\data\\'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PATH = os.path.join(BASE_DIR, 'data') + '\\'
+
 GAS_COLUMNS = ['H2', 'CO', 'C2H4', 'C2H2']
 
 
