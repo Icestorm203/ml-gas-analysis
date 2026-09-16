@@ -120,7 +120,9 @@ cd ml-gas-analysis
 ```
 2. Установить Python
 Проект протестирован на:
-- Python 3.12
+
+Python 3.12. 
+
 Проверить версию:
 ```
 python --version
@@ -162,6 +164,7 @@ python main.py
 ## 📁 Данные
 
 data/train.csv
+
 data/data_train/<id>.csv
 
 ---
