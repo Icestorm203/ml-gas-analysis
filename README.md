@@ -119,9 +119,8 @@ git clone https://github.com/<your-username>/ml-gas-analysis.git
 cd ml-gas-analysis
 ```
 2. Установить Python
-Проект протестирован на:
 
-Python 3.12. 
+Проект протестирован на Python 3.12.
 
 Проверить версию:
 ```
